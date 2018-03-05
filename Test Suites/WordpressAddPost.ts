@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>WordpressAddPost</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-03-05T14:07:44</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>0d1e3a72-1c8b-4d1b-b914-c797e94c17c1</testSuiteGuid>
+   <testCaseLink>
+      <guid>bdaaccdf-eb2b-4e0a-9f6b-cdd2f09a63dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wordpress add post</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6685e8e1-b0c1-4f03-bc89-42d0c319423f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dfb71ad4-1084-46f8-9305-0f5914ddbb42</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

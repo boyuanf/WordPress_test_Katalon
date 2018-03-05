@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WordpressAddPost" time="26" tests="1" failures="0" errors="0">
+   <testsuite name="WordpressAddPost" tests="1" failures="0" errors="0" time="26" timestamp="2018-03-05 14:07:46" hostname="Boyuan.Feng - FXCOYUL3PLAP140.fx.net" id="Test Suites/WordpressAddPost">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Boyuan\\MyKatalon\\WordPressTest\\Reports\\WordpressAddPost\\20180305_140744"/>
+         <property name="logFiles" value="C:\\Boyuan\\MyKatalon\\WordPressTest\\Reports\\WordpressAddPost\\20180305_140744\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Boyuan.Feng - FXCOYUL3PLAP140.fx.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.128.15.57"/>
+         <property name="sessionId" value="68b31ad88790ad7d99a047d2f5d97cda"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wordpress add post" classname="Test Cases/Wordpress add post" status="PASSED">
+         <system-out><![CDATA[2018-03-05 14:07:47 - [TEST_CASE][PASSED] - Test Cases/Wordpress add post: Test Cases/Wordpress add post
+
+2018-03-05 14:07:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-05 14:07:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 14:07:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://52.221.174.11/wp-login' successfully
+
+2018-03-05 14:07:53 - [MESSAGE][PASSED] - Navigate to 'http://52.221.174.11/wp-login' successfully
+
+2018-03-05 14:07:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-05 14:07:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-05 14:07:54 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/log_in_page/input_log'
+
+2018-03-05 14:07:54 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/log_in_page/input_log'
+
+2018-03-05 14:07:54 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/log_in_page/input_pwd'
+
+2018-03-05 14:07:54 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/log_in_page/input_pwd'
+
+2018-03-05 14:07:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/log_in_page/input_wp-submit' is clicked on
+
+2018-03-05 14:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/log_in_page/input_wp-submit' is clicked on
+
+2018-03-05 14:07:57 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/dashboard_page/Posts_button' is hovered
+
+2018-03-05 14:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_page/Posts_button' is hovered
+
+2018-03-05 14:07:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/dashboard_page/All Posts_button' is visible
+
+2018-03-05 14:07:57 - [MESSAGE][PASSED] - Object 'Object Repository/dashboard_page/All Posts_button' is visible
+
+2018-03-05 14:07:57 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/dashboard_page/All Posts_button' is hovered
+
+2018-03-05 14:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_page/All Posts_button' is hovered
+
+2018-03-05 14:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/dashboard_page/All Posts_button' is clicked on
+
+2018-03-05 14:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard_page/All Posts_button' is clicked on
+
+2018-03-05 14:07:58 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-03-05 14:07:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-03-05 14:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit_post_page/All_Posts_button' is clicked on
+
+2018-03-05 14:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/edit_post_page/All_Posts_button' is clicked on
+
+2018-03-05 14:07:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/all_post_page/add_new_post_button' is clicked on
+
+2018-03-05 14:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/all_post_page/add_new_post_button' is clicked on
+
+2018-03-05 14:08:04 - [TEST_STEP][PASSED] - setText: Text 'new post title by Katalon' is set on object 'Object Repository/add_new_post_page/input_post_title'
+
+2018-03-05 14:08:04 - [MESSAGE][PASSED] - Text 'new post title by Katalon' is set on object 'Object Repository/add_new_post_page/input_post_title'
+
+2018-03-05 14:08:04 - [TEST_STEP][PASSED] - setText: Text 'new post body by Katalon' is set on object 'Object Repository/add_new_post_page/new_post_body'
+
+2018-03-05 14:08:05 - [MESSAGE][PASSED] - Text 'new post body by Katalon' is set on object 'Object Repository/add_new_post_page/new_post_body'
+
+2018-03-05 14:08:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-05 14:08:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-05 14:08:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_new_post_page/publish_button' is clicked on
+
+2018-03-05 14:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/add_new_post_page/publish_button' is clicked on
+
+2018-03-05 14:08:11 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-03-05 14:08:11 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-03-05 14:08:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit_post_page/All_Posts_button' is clicked on
+
+2018-03-05 14:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/edit_post_page/All_Posts_button' is clicked on
+
+2018-03-05 14:08:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_post_page/post_created' is present
+
+2018-03-05 14:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/all_post_page/post_created' is present
+
+2018-03-05 14:08:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-05 14:08:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-05 14:07:46 - [TEST_SUITE][PASSED] - WordpressAddPost: Test Cases/Wordpress add post]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

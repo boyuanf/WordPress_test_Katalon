@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Wordpress add post</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60cbf105-afc8-41ae-9ef3-ba7bb4640753</testCaseGuid>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>6685e8e1-b0c1-4f03-bc89-42d0c319423f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>dfb71ad4-1084-46f8-9305-0f5914ddbb42</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
